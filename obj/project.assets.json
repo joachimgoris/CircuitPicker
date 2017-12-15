@@ -664,23 +664,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Joachim Goris\\.nuget\\packages\\": {},
+    "C:\\Users\\goris\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\source\\repos\\CircuitPicker\\CircuitPicker.csproj",
+      "projectUniqueName": "C:\\Source\\Repos\\CircuitPicker\\CircuitPicker.csproj",
       "projectName": "CircuitPicker",
-      "projectPath": "C:\\source\\repos\\CircuitPicker\\CircuitPicker.csproj",
-      "packagesPath": "C:\\Users\\Joachim Goris\\.nuget\\packages\\",
-      "outputPath": "C:\\source\\repos\\CircuitPicker\\obj\\",
+      "projectPath": "C:\\Source\\Repos\\CircuitPicker\\CircuitPicker.csproj",
+      "packagesPath": "C:\\Users\\goris\\.nuget\\packages\\",
+      "outputPath": "C:\\Source\\Repos\\CircuitPicker\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Joachim Goris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\goris\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -688,7 +688,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/messagehandler/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -706,7 +707,7 @@
         "dependencies": {
           "Microsoft.NETCore.App": {
             "target": "Package",
-            "version": "2.0.0",
+            "version": "2.0",
             "autoReferenced": true
           }
         },
