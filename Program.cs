@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Xml;
 
 namespace CircuitPicker
 {
@@ -10,11 +11,26 @@ namespace CircuitPicker
             Console.WriteLine("Hello!");
 
             
-            
-            foreach (var item in Data.Circuits)
+            XmlTextReader reader = new XmlTextReader("Circuits.xml");
+            while (reader.Read()) 
             {
-                Console.WriteLine(item);
+                switch (reader.NodeType) 
+                {
+                    case XmlNodeType.Element: // The node is an element.
+                        Console.Write("<" + reader.Name);
+                        Console.WriteLine(">");
+                    break;
+                    case XmlNodeType.Text: //Display the text in each element.
+                        Console.WriteLine (reader.Value);
+                    break;
+                    case XmlNodeType. EndElement: //Display the end of the element.
+                        Console.Write("</" + reader.Name);
+                        Console.WriteLine(">");
+                    break;
+                }
             }
+
+
             Console.ReadLine();
         }
     }

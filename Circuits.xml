@@ -254,7 +254,7 @@
         <layout2>Stage 1</layout2>
         <layout3>Stage 2</layout3>
         <layout4>Stage 3</layout4>
-        <layout5>Reverse/<layout5>
+        <layout5>Reverse</layout5>
     </circuit37>
     <circuit38>
         <name>Circuit of the Americas</name>
@@ -271,7 +271,7 @@
     </circuit39>
     <circuit40>
         <name>DirtFish</name>
-        <location>USA/<location>
+        <location>USA</location>
         <layout1>Pro RallyCross Course</layout1>
         <layout2>Mill Run Course</layout2>
         <layout3>Boneyard Course</layout3>
@@ -303,7 +303,7 @@
     </circuit44>
     <circuit45>
         <name>Sonoma Raceway</name>
-        <location>USA/<location>
+        <location>USA</location>
         <layout1>Short</layout1>
         <layout2>GP</layout2>
         <layout3>National</layout3>
