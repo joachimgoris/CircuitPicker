@@ -44,7 +44,7 @@
         <layout2>Club</layout2>
         <layout3>Club without dipper</layout3>
         <layout4>A circuit</layout4>
-        <layout5>B circuit</circuit5>
+        <layout5>B circuit</layout5>
     </circuit7>
     <circuit8>
         <name>Red Bull Ring</name>
@@ -205,6 +205,139 @@
         <location>Portugal</location>
         <layout>Fast</layout>
     </circuit30>
+    <circuit31>
+        <name>Bannochbrae</name>
+        <location>Scotland</location>
+        <layout>Road</layout>
+    </circuit31>
+    <circuit32>
+        <name>Knockhill</name>
+        <location>Scotland</location>
+        <layout1>International</layout1>
+        <layout2>International Reverse</layout2>
+        <layout3>National</layout3>
+        <layout4>National Reverse</layout4>
+        <layout5>Tri-Oval</layout5>
+        <layout6>RX</layout6>
+    </circuit32>
+    <circuit33>
+        <name>Circuit de Barcelona-Catalunya</name>
+        <location>Spain</location>
+        <layout1>GP</layout1>
+        <layout2>National</layout2>
+        <layout3>Club</layout3>
+    </circuit33>
+    <circuit34>
+        <name>Mercedes-Benz Onroad Winter driving events</name>
+        <location>Sweden</location>
+        <layout1>Ice Track 1</layout1>
+        <layout2>Ice Track 2</layout2>
+        <layout3>Ice Track 3</layout3>
+        <layout4>Ice Track 4</layout4>
+        <layout5>Ice Track 5</layout5>
+        <layout6>Ice Track Full</layout6>
+    </circuit34>
+    <circuit35>
+        <name>Wildcrest Rallycross</name>
+        <location>South Africa</location>
+        <layout>RX</layout>
+    </circuit35>
+    <circuit36>
+        <name>Sampala Ice Circuit</name>
+        <location>Canada</location>
+        <layout>Ice Circuit</layout>
+    </circuit36>
+    <circuit37>
+        <name>California Highway</name>
+        <location>USA</location>
+        <layout1>Full</layout1>
+        <layout2>Stage 1</layout2>
+        <layout3>Stage 2</layout3>
+        <layout4>Stage 3</layout4>
+        <layout5>Reverse/<layout5>
+    </circuit37>
+    <circuit38>
+        <name>Circuit of the Americas</name>
+        <layout1>GP</layout1>
+        <layout2>National</layout2>
+        <layout3>Club</layout3>
+    </circuit38>
+    <circuit39>
+        <name>Daytona International Speedway</name>
+        <location>USA</location>
+        <layout1>Tri-Oval</layout1>
+        <layout2>Road Course</layout2>
+        <layout3>RX</layout3>
+    </circuit39>
+    <circuit40>
+        <name>DirtFish</name>
+        <location>USA/<location>
+        <layout1>Pro RallyCross Course</layout1>
+        <layout2>Mill Run Course</layout2>
+        <layout3>Boneyard Course</layout3>
+    </circuit40>
+    <circuit41>
+        <name>Indianapolis Motor Speedway</name>
+        <location>USA</location>
+        <layout1>Oval</layout1>
+        <layout2>Road Course</layout2>
+    </circuit41>
+    <circuit42>
+        <name>Mazda Raceway Laguna Seca</name>
+        <location>USA</location>
+        <layout>Road</layout>
+    </circuit42>
+    <circuit43>
+        <name>Mojave Desert</name>
+        <location>USA</location>
+        <layout1>Boa Ascent</layout1>
+        <layout2>Sidewinder</layout2>
+        <layout3>Coyote Noose</layout3>
+        <layout4>Gila Crest</layout4>
+        <layout5>Cougar Ride</layout5>
+    </circuit43>
+    <circuit44>
+        <name>Road America</name>
+        <location>USA</location>
+        <layout>Road Course</layout>
+    </circuit44>
+    <circuit45>
+        <name>Sonoma Raceway</name>
+        <location>USA/<location>
+        <layout1>Short</layout1>
+        <layout2>GP</layout2>
+        <layout3>National</layout3>
+    </circuit45>
+    <circuit46>
+        <name>Summerton Karting Circuit</name>
+        <location>USA</location>
+        <layout1>Full</layout1>
+        <layout2>National</layout2>
+        <layout3>Sprint</layout3>
+    </circuit46>
+    <circuit47>
+        <name>Texas Motor Speedway</name>
+        <location>USA</location>
+        <layout1>Oval</layout1>
+        <layout2>Road Course</layout2>
+        <layout3>Infield Course</layout3>
+    </circuit47>
+    <circuit48>
+        <name>Toyota Grand Prix of Long Beach</name>
+        <location>USA</location>
+        <layout>Street Circuit</layout>        
+    </circuit48>
+    <circuit49>
+        <name>Watkins Glen International</name>
+        <location>USA</location>
+        <layout1>GP</layout1>
+        <layout2>Short</layout2>
+    </circuit49>
+    <circuit50>
+        <name>Willow Springs International Motorsports Park</name>
+        <location>USA</location>
+        <layout1>Big Willow</layout1>
+        <layout2>Horse Thief Mile</layout2>
+    </circuit50>
 
 </circuits>
-
