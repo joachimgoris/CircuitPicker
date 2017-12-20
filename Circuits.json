@@ -16,5 +16,95 @@
     "layout": "GP|Sprint|National|International",
     "location": "Japan",
     "name": "Sakitto"
+  },
+  {
+    "circuitId": 3,
+    "layout": "International",
+    "location": "Japan",
+    "name": "Sportsland Sugo"
+  },
+  {
+    "circuitId": 4,
+    "layout": "GP|International|National|Club|Kartdrome",
+    "location": "United Arab Emirates",
+    "name": "Dubai Autodrome"
+  },
+  {
+    "circuitId": 5,
+    "layout": "Road",
+    "location": "Australia",
+    "name": "Bathurst"
+  },
+  {
+    "circuitId": 6,
+    "layout": "GP|Club|Club without dipper|A circuit|B circuit",
+    "location": "New Zealand",
+    "name": "Ruapuna"
+  },
+  {
+    "circuitId": 7,
+    "layout": "GP|National|Club",
+    "location": "Austria",
+    "name": "Red Bull Ring"
+  },
+  {
+    "circuitId": 8,
+    "layout": "Historic GP|GP|Karting",
+    "location": "Belgium",
+    "name": "Circuit de Spa-Francorchamps"
+  },
+  {
+    "circuitId": 9,
+    "layout": "GP",
+    "location": "Belgium",
+    "name": "Zolder"
+  },
+  {
+    "circuitId": 10,
+    "layout": "GP",
+    "location": "Czech Republic",
+    "name": "Automotodrom Brno"
+  },
+  {
+    "circuitId": 11,
+    "layout": "GP|Indy",
+    "location": "England",
+    "name": "Brands Hatch"
+  },
+  {
+    "circuitId": 12,
+    "layout": "Karting",
+    "location": "England",
+    "name": "Chesterfield"
+  },
+  {
+    "circuitId": 13,
+    "layout": "GP|National",
+    "location": "England",
+    "name": "Donington Park"
+  },
+  {
+    "circuitId": 14,
+    "layout": "Full|Reverse|East|East Reverse|West|West Reverse",
+    "location": "England",
+    "name": "Glencairn"
+  },
+  {
+    "circuitId": 15,
+    "layout": "International|Fosters|Island",
+    "location": "England",
+    "name": "Oulton Park"
+  },
+  {
+    "circuitId": 16,
+    "layout": "Historic|Arena GP|International|National|Stowe Long",
+    "location": "England",
+    "name": "Silverstone Circuit"
+  },
+  {
+    "circuitId": 17,
+    "layout": "300(GP)|200|100",
+    "location": "England",
+    "name": "Snetterton Circuit" 
   }
 ]

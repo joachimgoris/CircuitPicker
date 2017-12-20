@@ -13,16 +13,26 @@ namespace CircuitPicker
         static void Main(string[] args)
         {
             List<Circuit> circuits;
-            using (StreamReader r = new StreamReader(@"C:\Users\goris\Source\Repos\CircuitPicker\Circuits.json"))
+            using (StreamReader r = new StreamReader(@"C:\Source\Repos\CircuitPicker\Circuits.json"))
             {
                 string json = r.ReadToEnd();
                 circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
             }
-            foreach (var v in circuits)
+            Random rdm = new Random();
+            string input;
+            do
             {
-                Console.WriteLine(v.Name);
-            }
-            Console.ReadLine();
+                int nr = rdm.Next(circuits.Count - 1);
+                StringBuilder str =
+                    new StringBuilder("Name: " + circuits[nr].Name + "\nLocation: " + circuits[nr].Location +
+                                      "\nLayout: ");
+                var layouts = circuits[nr].Layout.Split('|');
+                nr = rdm.Next(layouts.Length - 1);
+                str.Append(layouts[nr]);
+                Console.WriteLine(str.ToString());
+                input = Console.ReadLine();
+                Console.Clear();
+            } while (input !="N");
         }
     }
 
@@ -31,7 +41,8 @@ namespace CircuitPicker
         [JsonProperty("circuits")]
         public List<Circuit> Circuits { get; set; }
     }
-    class Circuit
+
+    internal class Circuit
     {
         [JsonProperty("circuitId")]
         public int Id { get; set; }
