@@ -1,0 +1,9 @@
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.exe.config
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.exe
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.pdb
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.dll
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.xml
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csprojResolveAssemblyReference.cache
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CoreCompileInputs.cache
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.exe
+C:\Users\goris\Source\Repos\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.pdb

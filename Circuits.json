@@ -1,0 +1,20 @@
+[
+  {
+    "circuitId": 0, 
+    "layout": "GP",
+    "location": "China",
+    "name": "Zhuhai International Circuit"
+  },
+  {
+    "circuitId": 1,
+    "layout": "GP",
+    "location": "Japan",
+    "name": "Fuji Speedway"
+  },
+  {
+    "circuitId": 2,
+    "layout": "GP|Sprint|National|International",
+    "location": "Japan",
+    "name": "Sakitto"
+  }
+]
