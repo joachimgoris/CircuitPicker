@@ -397,4 +397,434 @@
     "type": "Mustang GT",
     "year": 2015
   },
+  {
+    "carId": 66,
+    "brand": "Ford",
+    "type": "F-150 RTR Funhaver",
+    "year": 2016
+  },
+  {
+    "carId": 67,
+    "brand": "Ford",
+    "type": "Focus RS RX",
+    "year": 2016
+  },
+  {
+    "carId": 68,
+    "brand": "Ford",
+    "type": "Fusion Stock Car",
+    "year": 2016
+  },
+  {
+    "carId": 69,
+    "brand": "Ford",
+    "type": "GT",
+    "year": 2016
+  },
+  {
+    "carId": 70,
+    "brand": "Ford",
+    "type": "GT LM GTE",
+    "year": 2016
+  },
+  {
+    "carId": 71,
+    "brand": "Ford",
+    "type": "Mustang RTR GT4",
+    "year": 2016
+  },
+  {
+    "carId": 72,
+    "brand": "Ginetta",
+    "type": "G40 Junior",
+    "year": 2013
+  },
+  {
+    "carId": 73,
+    "brand": "Ginetta",
+    "type": "G55 GT4",
+    "year": 2013
+  },
+  {
+    "carId": 74,
+    "brand": "Ginetta",
+    "type": "G40 GT5",
+    "year": 2013
+  },
+  {
+    "carId": 75,
+    "brand": "Ginetta",
+    "type": "G55 GT3",
+    "year": 2016
+  },
+  {
+    "carId": 76,
+    "brand": "Ginetta",
+    "type": "G57",
+    "year": 2016
+  },
+  {
+    "carId": 77,
+    "brand": "Ginetta",
+    "type": "LMP3",
+    "year": 2016
+  },
+  {
+    "carId": 78,
+    "brand": "Honda",
+    "type": "2&4 Concept Car",
+    "year": 2015,
+    "isDLC": true,
+    "dlcPack": "Japanese Cars"
+  },
+  {
+    "carId": 79,
+    "brand": "Honda",
+    "type": "Dallara IR-12 Honda (Oval)",
+    "year": 2016
+  },
+  {
+    "carId": 80,
+    "brand": "Honda",
+    "type": "Dallara IR-12 Honda (Road)",
+    "year": 2016
+  },
+  {
+    "carId": 81,
+    "brand": "Honda",
+    "type": "Civic Coupe GRX",
+    "year": 2016
+  },
+  {
+    "carId": 82,
+    "brand": "Honda",
+    "type": "Civic Type-R Euro Spec",
+    "year": 2016,
+    "isDLC": true,
+    "dlcPack": "Japanese Cars"
+  },
+  {
+    "carId": 83,
+    "brand": "Jaguar",
+    "type": "E-Type V12 Group 44",
+    "year": 1974
+  },
+  {
+    "carId": 84,
+    "brand": "Jaguar",
+    "type": "XJR-9",
+    "year": 1988
+  },
+  {
+    "carId": 85,
+    "brand": "Jaguar",
+    "type": "XJR-9 (Le Mans Version)",
+    "year": 1988
+  },
+  {
+    "carId": 86,
+    "brand": "Jaguar",
+    "type": "XJ220 S",
+    "year": 1994
+  },
+  {
+    "carId": 87,
+    "brand": "Jaguar",
+    "type": "F-Type SVR",
+    "year": 2016
+  },
+  {
+    "carId": 88,
+    "brand": "KTM",
+    "type": "X-Bow R",
+    "year": 2015
+  },
+  {
+    "carId": 89,
+    "brand": "KTM",
+    "type": "X-Bow GT4",
+    "year": 2016
+  },
+  {
+    "carId": 90,
+    "brand": "Lamborghini",
+    "type": "Diablo GTR",
+    "year": 1999
+  },
+  {
+    "carId": 91,
+    "brand": "Lamborghini",
+    "type": "Sesto Elemento",
+    "year": 2010
+  },
+  {
+    "carId": 92,
+    "brand": "Lamborghini",
+    "type": "Veneno LP750-4",
+    "year": 2013
+  },
+  {
+    "carId": 93,
+    "brand": "Lamborghini",
+    "type": "Huracan LP610-4",
+    "year": 2016
+  },
+  {
+    "carId": 94,
+    "brand": "Lamborghini",
+    "type": "Huracan GT3",
+    "year": 2016
+  },
+  {
+    "carId": 95,
+    "brand": "Lamborghini",
+    "type": "Huracan LP620-2 Super Trofeo",
+    "year": 2015
+  },
+  {
+    "carId": 96,
+    "brand": "Lamborghini",
+    "type": "Aventador LP700-4",
+    "year": 2016
+  },
+  {
+    "carId": 97,
+    "brand": "Ligier",
+    "type": "JS P2 Honda",
+    "year": 2016
+  },
+  {
+    "carId": 98,
+    "brand": "Ligier",
+    "type": "JS P2 Judd",
+    "year": 2016
+  },
+  {
+    "carId": 99,
+    "brand": "Ligier",
+    "type": " JS P2 Nissan",
+    "year": 2016
+  },
+  {
+    "carId": 100,
+    "brand": "Ligier",
+    "type": "JS P3",
+    "year": 2016
+  },
+  {
+    "carId": 101,
+    "brand": "Lotus",
+    "type": "Type 25 Climax",
+    "year": 1963
+  },
+  {
+    "carId": 102,
+    "brand": "Lotus",
+    "type": "Type 38 Ford",
+    "year": 1965
+  },
+  {
+    "carId": 103,
+    "brand": "Lotus",
+    "type": "Type 40 Ford",
+    "year": 1965
+  },
+  {
+    "carId": 104,
+    "brand": "Lotus",
+    "type": "Type 49 Cosworth",
+    "year": 1967
+  },
+  {
+    "carId": 105,
+    "brand": "Lotus",
+    "type": "Type 51",
+    "year": 1967
+  },
+  {
+    "carId": 106,
+    "brand": "Lotus",
+    "type": "Type 56 Ford",
+    "year": 1968
+  },
+  {
+    "carId": 107,
+    "brand": "Lotus",
+    "type": "Type 49C Cosworth",
+    "year": 1970
+  },
+  {
+    "carId": 108,
+    "brand": "Lotus",
+    "type": "Type 72D Cosworth",
+    "year": 1972
+  },
+  {
+    "carId": 109,
+    "brand": "Lotus",
+    "type": "Type 78 Cosworth",
+    "year": 1977
+  },
+  {
+    "carId": 110,
+    "brand": "Lotus",
+    "type": "Type 98T Renault Turbo",
+    "year": 1986
+  },
+  {
+    "carId": 111,
+    "brand": "Marek",
+    "type": "RP 219D LMP2",
+    "year": 2016
+  },
+  {
+    "carId": 112,
+    "brand": "Marek",
+    "type": "RP 339H LMP1",
+    "year": 2016
+  },
+  {
+    "carId": 113,
+    "brand": "Mazda",
+    "type": "MX-5 RadBul Formula Drift",
+    "year": 2015
+  },
+  {
+    "carId": 114,
+    "brand": "McLaren",
+    "type": "F1",
+    "year": 1992
+  },
+  {
+    "carId": 115,
+    "brand": "McLaren",
+    "type": "F1 GTR Long Tail",
+    "year": 1997
+  },
+  {
+    "carId": 116,
+    "brand": "McLaren",
+    "type": "P1",
+    "year": 2014
+  },
+  {
+    "carId": 117,
+    "brand": "McLaren",
+    "type": "P1 GTR",
+    "year": 2015
+  },
+  {
+    "carId": 118,
+    "brand": "McLaren",
+    "type": "570S",
+    "year": 2016
+  },
+  {
+    "carId": 119,
+    "brand": "McLaren",
+    "type": "650S GT3",
+    "year": 2016
+  },
+  {
+    "carId": 120,
+    "brand": "McLaren",
+    "type": "720S",
+    "year": 2017
+  },
+  {
+    "carId": 121,
+    "brand": "Mercedes-AMG",
+    "type": "GT3",
+    "year": 2015
+  },
+  {
+    "carId": 122,
+    "brand": "Mercedes-AMG",
+    "type": "A 45 4MATIC",
+    "year": 2016
+  },
+  {
+    "carId": 123,
+    "brand": "Mercedes-AMG",
+    "type": "A 45 SMS-R Rallycross",
+    "year": 2016
+  },
+  {
+    "carId": 124,
+    "brand": "Mercedes-AMG",
+    "type": "A 45 SMS-R TCC",
+    "year": 2016
+  },
+  {
+    "carId": 125,
+    "brand": "Mercedes-AMG",
+    "type": "C 63 Coupé S",
+    "year": 2016
+  },
+  {
+    "carId": 126,
+    "brand": "Mercedes-AMG",
+    "type": "GT R",
+    "year": 2017
+  },
+  {
+    "carId": 127,
+    "brand": "Mercedes-Benz",
+    "type": "300 SL (W194)",
+    "year": 1952
+  },
+  {
+    "carId": 128,
+    "brand": "Mercedes-Benz",
+    "type": "300SEL 6.8 AMG",
+    "year": 1971
+  },
+  {
+    "carId": 129,
+    "brand": "Mercedes-Benz",
+    "type": "190E 2.5-16 Evolution II DTM",
+    "year": 1991
+  },
+  {
+    "carId": 130,
+    "brand": "Mercedes-Benz",
+    "type": "Sauber C9 Mercedes-Benz",
+    "year": 1989
+  },
+  {
+    "carId": 131,
+    "brand": "Mercedes-Benz",
+    "type": "Sauber C9 Mercedes-Benz(Le Mans Version)",
+    "year": 1989
+  },
+  {
+    "carId": 132,
+    "brand": "Mercedes-Benz",
+    "type": "CLK-LM",
+    "year": 1998
+  },
+  {
+    "carId": 133,
+    "brand": "Mercedes-Benz",
+    "type": "SLS AMG GT3",
+    "year": 2012
+  },
+  {
+    "carId": 134,
+    "brand": "MINI",
+    "type": "Countryman RX",
+    "year": 2016
+  },
+  {
+    "carId": 135,
+    "brand": "Mitsubishi",
+    "type": "Lancer Evolution VI T.M.E",
+    "year": 1999
+  },
+  {
+    "carId": 136,
+    "brand": "Mitsubishi",
+    "type": "Lancer Evolution IX FQ360",
+    "year": 2006
+  }
 ]
