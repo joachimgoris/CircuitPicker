@@ -105,6 +105,198 @@
     "circuitId": 17,
     "layout": "300(GP)|200|100",
     "location": "England",
-    "name": "Snetterton Circuit" 
+    "name": "Snetterton Circuit"
+  },
+  {
+    "circuitId": 18,
+    "layout": "RX",
+    "location": "France",
+    "name": "Circuit de Lohéac"
+  },
+  {
+    "circuitId": 19,
+    "layout": "Circuit des 24 heures|Le circuit Bugatti|Karting international",
+    "location": "France",
+    "name": "Circuit de la Sarthe(Le Mans)"
+  },
+  {
+    "circuitId": 20,
+    "layout": "Full|Stage 1|Stage 2|Stage 3|Reverse",
+    "location": "France",
+    "name": "Côte d'Azur"
+  },
+  {
+    "circuitId": 21,
+    "layout": "Historic|Historic short",
+    "location": "France",
+    "name": "Rouen-Les-Essarts"
+  },
+  {
+    "circuitId": 22,
+    "layout": "Historic|GP|National|Short circuit|RX",
+    "location": "Germany",
+    "name": "Hockenheimring"
+  },
+  {
+    "circuitId": 23,
+    "layout": "Combined|Nordschleife|GP|Sprint|Sprint(short)|Müllenbachschleife|Nordschleife stage 1|Nordschleife stage 2|Nordschleife stage 3",
+    "location": "Germany",
+    "name": "Nürburgring"
+  },
+  {
+    "circuitId": 24,
+    "layout": "A course|B course|C course",
+    "location": "Germany",
+    "name": "Oschersleben"
+  },
+  {
+    "circuitId": 25,
+    "layout": "GP",
+    "location": "Italy",
+    "name": "Imola"
+  },
+  {
+    "circuitId": 26,
+    "layout": "Historic Full| Historic GP|Historic Oval|GP|Junior Short",
+    "location": "Italy",
+    "name": "Monza"
+  },
+  {
+    "circuitId": 27,
+    "layout": "GP",
+    "location": "Monaco",
+    "name": "Azure Circuit"
+  },
+  {
+    "circuitId": 28,
+    "layout": "RX",
+    "location": "Norway",
+    "name": "Hell"
+  },
+  {
+    "circuitId": 29,
+    "layout": "Fast",
+    "location": "Portugal",
+    "name": "Autódromo Internacional de Algarve"
+  },
+  {
+    "circuitId": 30,
+    "layout": "Road",
+    "location": "Scotland",
+    "name": "Bannochbrae"
+  },
+  {
+    "circuitId": 31,
+    "layout": "International|International reverse|National|National reverse|Tri-Oval|RX",
+    "location": "Scotland",
+    "name": "Knockhill"
+  },
+  {
+    "circuitId": 32,
+    "layout": "GP|National|Club",
+    "location": "Spain",
+    "name": "Circuit de Barcelona-Catalunya"
+  },
+  {
+    "circuitId": 33,
+    "layout": "Ice Track 1|Ice Track 2|Ice Track 3|Ice Track 4|Ice Track 5|Ice Track Full",
+    "location": "Sweden",
+    "name": "Mercedes-Benz Onroad Winter driving events"
+  },
+  {
+    "circuitId": 34,
+    "layout": "RX",
+    "location": "South Africa",
+    "name": "Wildcrest Rallycross"
+  },
+  {
+    "circuitId": 35,
+    "layout": "Ice Circuit",
+    "location": "Canada",
+    "name": "Sampala Ice Circuit"
+  },
+  {
+    "circuitId": 36,
+    "layout": "Full|Stage 1|Stage 2|Stage 3|Reverse",
+    "location": "USA",
+    "name": "California Highway"
+  },
+  {
+    "circuitId": 37,
+    "layout": "GP|National|Club",
+    "location": "USA",
+    "name": "Circuit of the Americas"
+  },
+  {
+    "circuitId": 38,
+    "layout": "Tri-Oval|Road course|RX",
+    "location": "USA",
+    "name": "Daytona International Speedway"
+  },
+  {
+    "circuitId": 39,
+    "layout": "Pro Rallycross course|Mill Run course|Boneyard course",
+    "location": "USA",
+    "name": "DirtFish"
+  },
+  {
+    "circuitId": 40,
+    "layout": "Oval|Road course",
+    "location": "USA",
+    "name": "Indianapols Motor Speedway"
+  },
+  {
+    "circuitId": 41,
+    "layout": "Road",
+    "location": "USA",
+    "name": "Mazda Raceway Laguna seca"
+  },
+  {
+    "circuitId": 42,
+    "layout": "Boa ascent|Sidewinder|Coyote Noose|Gila Crest|Cougar Ride",
+    "location": "USA",
+    "name": "Mojave Desert"
+  },
+  {
+    "circuitId": 43,
+    "layout": "Road course",
+    "location": "USA",
+    "name": "Road America"
+  },
+  {
+    "circuitId": 44,
+    "layout": "Short|GP|National",
+    "location": "USA",
+    "name": "Sonoma Raceway"
+  },
+  {
+    "circuitId": 45,
+    "layout": "Full|National|Sprint",
+    "location": "USA",
+    "name": "Summerton Karting Circuit"
+  },
+  {
+    "circuitId": 46,
+    "layout": "Oval|Road course|Infield course",
+    "location": "USA",
+    "name": "Texas Motor Speedway"
+  },
+  {
+    "circuitId": 47,
+    "layout": "Street circuit",
+    "location": "USA",
+    "name": "Toyota Grand Prix of Long Beach"
+  },
+  {
+    "circuitId": 48,
+    "layout": "GP|Short",
+    "location": "USA",
+    "name": "Watkins Glen International"
+  },
+  {
+    "circuitId": 49,
+    "layout": "Big Willow|Horse Thief Mile",
+    "location": "USA",
+    "name": "Willow Springs International Motorsports Park" 
   }
 ]
