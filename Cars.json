@@ -826,5 +826,73 @@
     "brand": "Mitsubishi",
     "type": "Lancer Evolution IX FQ360",
     "year": 2006
+  },
+  {
+    "carId": 137,
+    "brand": "Mitsubishi",
+    "type": "Lancer Evolution X FQ400",
+    "year": 212
+  },
+  {
+    "carId": 138,
+    "brand": "Mitsubishi",
+    "type": "Lancer Evolution VI SVA",
+    "year": 2016
+  },
+  {
+    "carId": 139,
+    "brand": "Nissan",
+    "type": "Fairlady 240ZG GTS-II",
+    "year": 1973
+  },
+  {
+    "carId": 140,
+    "brand": "Nissan",
+    "type": "280 ZX IMSA GTX",
+    "year": 1981,
+    "isDLC": true,
+    "dlcPack": "Japanese Cars"
+  },
+  {
+    "carId": 141,
+    "brand": "Nissan",
+    "type": "KDR30 Super Silhouette",
+    "year": 1982
+  },
+  {
+    "carId": 142,
+    "brand": "Nissan",
+    "type": "GTP ZX-Turbo",
+    "year": 1988
+  },
+  {
+    "carId": 143,
+    "brand": "Nissan",
+    "type": "R89C",
+    "year": 1989
+  },
+  {
+    "carId": 144,
+    "brand": "Nissan",
+    "type": "R89C (Le Mans Version)",
+    "year": 1989
+  },
+  {
+    "carId": 145,
+    "brand": "Nissan",
+    "type": "Skyline GT-R (BRN32) Group A",
+    "year": 1991
+  },
+  {
+    "carId": 146,
+    "brand": "Nissan",
+    "type": "300ZX Turbo IMSA GTS",
+    "year": 1994
+  },
+  {
+    "carId":147,
+    "brand": "Nissan",
+    "type": "300ZX Turbo LM",
+    "year": 1994
   }
 ]
