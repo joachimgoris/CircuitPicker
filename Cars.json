@@ -1,0 +1,400 @@
+[
+  {
+    "carId": 0,
+    "brand": "Acura",
+    "type": "NSX",
+    "year": 2017
+  },
+  {
+    "carId": 1,
+    "brand": "Acura",
+    "type": "NSX GT3",
+    "year": 2017
+  },
+  {
+    "carId": 2,
+    "brand": "Agajanian",
+    "type": "Watson Roadster",
+    "year": 1963
+  },
+  {
+    "carId": 3,
+    "brand": "Aston Martin",
+    "type": "DBR1/300",
+    "year": 1959
+  },
+  {
+    "carId": 4,
+    "brand": "Aston Martin",
+    "type": "Vantage GT3",
+    "year": 2013
+  },
+  {
+    "carId": 5,
+    "brand": "Aston Martin",
+    "type": "Vantage GT4",
+    "year": 2013
+  },
+  {
+    "carId": 6,
+    "brand": "Aston Martin",
+    "type": "Vantage GTE",
+    "year": 2014
+  },
+  {
+    "carId": 7,
+    "brand": "Aston Martin",
+    "type": "Vantage GT12",
+    "year": 2015
+  },
+  {
+    "carId": 8,
+    "brand": "Aston Martin",
+    "type": "Vulcan",
+    "year": 2016
+  },
+  {
+    "carId": 9,
+    "brand": "Aston Martin",
+    "type": "DB11",
+    "year": 2017
+  },
+  {
+    "carId": 10,
+    "brand": "Audi",
+    "type": "90 quattro IMSA GTO",
+    "year": 1989
+  },
+  {
+    "carId": 11,
+    "brand": "Audi",
+    "type": "V8 DTM",
+    "year": 1991,
+    "isDLC": true,
+    "dlcPack": "Motorsport Pack"
+  },
+  {
+    "carId": 12,
+    "brand": "Audi",
+    "type": "R8",
+    "year": 2002
+  },
+  {
+    "carId": 13,
+    "brand": "Audi",
+    "type": "A1 Quattro",
+    "year": 2013
+  },
+  {
+    "carId": 14,
+    "brand": "Audi",
+    "type": "R18 e-tron Quattro",
+    "year": 2014
+  },
+  {
+    "carId": 15,
+    "brand": "Audi",
+    "type": "R8 LMS",
+    "year": 2015
+  },
+  {
+    "carId": 16,
+    "brand": "Audi",
+    "type": "R8 LMS Endurance",
+    "year": 2015
+  },
+  {
+    "carId": 17,
+    "brand": "Audi",
+    "type": "R8 V10 Plus",
+    "year": 2015
+  },
+  {
+    "carId": 18,
+    "brand": "BAC",
+    "type": "Mono",
+    "year": 2017
+  },
+  {
+    "carId": 19,
+    "brand": "Bentley",
+    "type": "Speed 8",
+    "year": 2003
+  },
+  {
+    "carId": 20,
+    "brand": "Bentley",
+    "type": "Continental GT3",
+    "year": 2015
+  },
+  {
+    "carId": 21,
+    "brand": "Bentley",
+    "type": "Continental GT3",
+    "year": 2016
+  },
+  {
+    "carId": 22,
+    "brand": "Bentley",
+    "type": "Continental GT3 Endurance",
+    "year": 2016
+  },
+  {
+    "carId": 23,
+    "brand": "BMW",
+    "type": "2002 Stanceworks Edition",
+    "year": 1973
+  },
+  {
+    "carId": 24,
+    "brand": "BMW",
+    "type": "2002 Turbo",
+    "year": 1973
+  },
+  {
+    "carId": 25,
+    "brand": "BMW",
+    "type": "320 Turbo Group 5",
+    "year": 1978
+  },
+  {
+    "carId": 26,
+    "brand": "BMW",
+    "type": "M1 Procar",
+    "year": 1981
+  },
+  {
+    "carId": 27,
+    "brand": "BMW",
+    "type": "E30 M3 Group A",
+    "year": 1991
+  },
+  {
+    "carId": 28,
+    "brand": "BMW",
+    "type": "V12 LMR",
+    "year": 1999
+  },
+  {
+    "carId": 29,
+    "brand": "BMW",
+    "type": "1-Series M Coupe",
+    "year": 2011
+  },
+  {
+    "carId": 30,
+    "brand": "BMW",
+    "type": "1-Series M Coupe Stancework Edition",
+    "year": 2011
+  },
+  {
+    "carId": 31,
+    "brand": "BMW",
+    "type": "320 TC(E90)",
+    "year": 2012
+  },
+  {
+    "carId": 32,
+    "brand": "BMW",
+    "type": "M3 GT4 E92",
+    "year": 2012
+  },
+  {
+    "carId": 33,
+    "brand": "BMW",
+    "type": "Z4 GT3",
+    "year": 2012
+  },
+  {
+    "carId": 34,
+    "brand": "BMW",
+    "type": "M6 GT3",
+    "year": 2016
+  },
+  {
+    "carId": 35,
+    "brand": "BMW",
+    "type": "M6 GTLM",
+    "year": 2016
+  },
+  {
+    "carId": 36,
+    "brand": "Cadillac",
+    "type": "ATS-V.R GT3",
+    "year": 2016
+  },
+  {
+    "carId": 37,
+    "brand": "Caterham",
+    "type": "SP/300R",
+    "year": 2012
+  },
+  {
+    "carId": 38,
+    "brand": "Caterham",
+    "type": "Seven 620R",
+    "year": 2015
+  },
+  {
+    "carId": 39,
+    "brand": "Chevrolet",
+    "type": "Z28 Trans Am",
+    "year": 1969
+  },
+  {
+    "carId": 40,
+    "brand": "Chevrolet",
+    "type": "Corvette C7.R GTE",
+    "year": 2016
+  },
+  {
+    "carId": 41,
+    "brand": "Chevrolet",
+    "type": "Dallara IR-12 Chevrolet(Oval)",
+    "year": 2016
+  },
+  {
+    "carId": 42,
+    "brand": "Chevrolet",
+    "type": "Dallara IR-12 Chevrolet(Road)",
+    "year": 2016
+  },
+  {
+    "carId": 43,
+    "brand": "Chevrolet",
+    "type": "Camaro ZL-1",
+    "year": 2017
+  },
+  {
+    "carId": 44,
+    "brand": "Chevrolet",
+    "type": "Corvette C7 Z06",
+    "year": 2017
+  },
+  {
+    "carId": 45,
+    "brand": "Ferrari",
+    "type": "330 P4",
+    "year": 1967
+  },
+  {
+    "carId": 46,
+    "brand": "Ferrari",
+    "type": "365 GTB4 Competizione",
+    "year": 1971
+  },
+  {
+    "carId": 47,
+    "brand": "Ferrari",
+    "type": "288 GTO",
+    "year": 1984
+  },
+  {
+    "carId": 48,
+    "brand": "Ferrari",
+    "type": "F40 LM",
+    "year": 1989
+  },
+  {
+    "carId": 49,
+    "brand": "Ferrari",
+    "type": "F50 GT",
+    "year": 1996
+  },
+  {
+    "carId": 50,
+    "brand": "Ferrari",
+    "type": "333 SP",
+    "year": 1996
+  },
+  {
+    "carId": 51,
+    "brand": "Ferrari",
+    "type": "Enzo",
+    "year": 2003
+  },
+  {
+    "carId": 52,
+    "brand": "Ferrari",
+    "type": "LaFerrari",
+    "year": 2015
+  },
+  {
+    "carId": 53,
+    "brand": "Ferrari",
+    "type": "488 GT3",
+    "year": 2016
+  },
+  {
+    "carId": 54,
+    "brand": "Ferrari",
+    "type": "488 GTE",
+    "year": 2016
+  },
+  {
+    "carId": 55,
+    "brand": "Ford",
+    "type": "Mustang 2+2 Fastback",
+    "year": 1966
+  },
+  {
+    "carId": 56,
+    "brand": "Ford",
+    "type": "GT40 MkIV",
+    "year": 1867
+  },
+  {
+    "carId": 57,
+    "brand": "Ford",
+    "type": "Escord RS1600",
+    "year": 1971
+  },
+  {
+    "carId": 58,
+    "brand": "Ford",
+    "type": "Escort RS1600 (Racing)",
+    "year": 1971
+  },
+  {
+    "carId": 59,
+    "brand": "Ford",
+    "type": "Escort RS1600 (Rallycross)",
+    "year": 1871
+  },
+  {
+    "carId": 60,
+    "brand": "Ford",
+    "type": "Capri Zakspeed Group 5",
+    "year": 1980
+  },
+  {
+    "carId": 61,
+    "brand": "Ford",
+    "type": "Sierra RS500 Cosworth Group A",
+    "year": 1988
+  },
+  {
+    "carId": 62,
+    "brand": "Ford",
+    "type": "Mustang Cobra TransAm",
+    "year": 1997
+  },
+  {
+    "carId": 63,
+    "brand": "Ford",
+    "type": "FG Falcon V8 Supercar",
+    "year": 2013
+  },
+  {
+    "carId": 64,
+    "brand": "Ford",
+    "type": "Mustang Boss 302R",
+    "year": 2013
+  },
+  {
+    "carId": 65,
+    "brand": "Ford",
+    "type": "Mustang GT",
+    "year": 2015
+  },
+]
