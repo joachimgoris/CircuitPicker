@@ -40,7 +40,6 @@ namespace CircuitPicker
                 {
                     strCar = ("Car :" + cars[rdmCar].Brand + " " + cars[rdmCar].Type + " " + cars[rdmCar].Year);
                 }
-
                 StringBuilder strCircuit =
                     new StringBuilder("Name: " + circuits[rdmCircuit].Name + "\nLocation: " + circuits[rdmCircuit].Location +
                                       "\nLayout: ");
@@ -83,3 +82,4 @@ namespace CircuitPicker
         public string DlcPack { get; set; }
     }
 }
+
