@@ -890,9 +890,307 @@
     "year": 1994
   },
   {
-    "carId":147,
+    "carId": 147,
     "brand": "Nissan",
     "type": "300ZX Turbo LM",
     "year": 1994
+  },
+  {
+    "carId": 148,
+    "brand": "Nissan",
+    "type": "R390 GT1",
+    "year": 1998
+  },
+  {
+    "carId": 149,
+    "brand": "Nissan",
+    "type": "Skyline (R34) SMS-R",
+    "year": 1999
+  },
+  {
+    "carId": 150,
+    "brand": "Nissan",
+    "type": "GT-R Nismo GT3 (R35)",
+    "year": 2016
+  },
+  {
+    "carId": 151,
+    "brand": "Nissan",
+    "type": "GT-R Nismo (R35)",
+    "year": 2017
+  },
+  {
+    "carId": 152,
+    "brand": "Olsberga MSE",
+    "type": "MSE RX Supercar Lite",
+    "year": 2016
+  },
+  {
+    "carId": 153,
+    "brand": "Opel",
+    "type": "Astra TCR",
+    "year": 2016,
+    "isDLC": true,
+    "dlcPack": "Motorsport pack"
+  },
+  {
+    "carId": 154,
+    "brand": "Oreca",
+    "type": "03 Nissan",
+    "year": 2013
+  },
+  {
+    "carId": 155,
+    "brand": "Pagani",
+    "type": "Zonda Cinque Roadster",
+    "year": 2011
+  },
+  {
+    "carId": 156,
+    "brand": "Pagani",
+    "type": "Zonda Revolucion",
+    "year": 2015
+  },
+  {
+    "carId": 157,
+    "brand": "Pagani",
+    "type": "Huayra BC",
+    "year": 2016
+  },
+  {
+    "carId": 158,
+    "brand": "Panoz",
+    "type": "Esperante GTR-1",
+    "year": 1998,
+    "isDLC": true,
+    "dlcPack": "Motorsport pack"
+  },
+  {
+    "carId": 159,
+    "brand": "Porsche",
+    "type": "936 Spyder",
+    "year": 1977
+  },
+  {
+    "carId": 160,
+    "brand": "Porsche",
+    "type": "935/77",
+    "year": 1977
+  },
+  {
+    "carId": 161,
+    "brand": "Porsche",
+    "type": "935/80",
+    "year": 1979
+  },
+  {
+    "carId": 162,
+    "brand": "Porsche",
+    "type": "962C",
+    "year": 1987
+  },
+  {
+    "carId": 163,
+    "brand": "Porsche",
+    "type": "962C Langheck",
+    "year": 1988
+  },
+  {
+    "carId": 164,
+    "brand": "Porsche",
+    "type": "911 GT1-98",
+    "year": 1998
+  },
+  {
+    "carId": 165,
+    "brand": "Porsche",
+    "type": "918 Spyder Weissach",
+    "year": 2015
+  },
+  {
+    "carId": 166,
+    "brand": "Porsche",
+    "type": "911 GT3 R",
+    "year": 2016
+  },
+  {
+    "carId": 167,
+    "brand": "Porsche",
+    "type": "911 GT3 R Endurance",
+    "year": 2016
+  },
+  {
+    "carId": 168,
+    "brand": "Porsche",
+    "type": "911 GT3 RS",
+    "year": 2016
+  },
+  {
+    "carId": 169,
+    "brand": "Porsche",
+    "type": "Cayman GT4 Clubsport MR",
+    "year": 2016
+  },
+  {
+    "carId": 170,
+    "brand": "Radical",
+    "type": "SR3 Rs",
+    "year": 2011
+  },
+  {
+    "carId": 171,
+    "brand": "Radical",
+    "type": "SR8 RX",
+    "year": 2011
+  },
+  {
+    "carId": 172,
+    "brand": "Radical",
+    "type": "RXC Turbo",
+    "year": 2015
+  },
+  {
+    "carId": 173,
+    "brand": "Renault",
+    "type": "Alpine A442B",
+    "year": 1978
+  },
+  {
+    "carId": 174,
+    "brand": "Renault",
+    "type": "Mégane Trophy V6",
+    "year": 2009
+  },
+  {
+    "carId": 175,
+    "brand": "Renault",
+    "type": "Clio Cup",
+    "year": 2014
+  },
+  {
+    "carId": 176,
+    "brand": "Renault",
+    "type": "Formula 3.5",
+    "year": 2015
+  },
+  {
+    "carId": 177,
+    "brand": "Renault",
+    "type": "Mégane R.S. 275 Trophy-R",
+    "year": 2015
+  },
+  {
+    "carId": 178,
+    "brand": "Renault",
+    "type": "Sport R.S.01",
+    "year": 2015
+  },
+  {
+    "carId": 179,
+    "brand": "Renault",
+    "type": "Sport R.S.01 GT3",
+    "year": 2015
+  },
+  {
+    "carId": 180,
+    "brand": "Renault",
+    "type": "Mégane R.S. Rallycross",
+    "year": 2016
+  },
+  {
+    "carId": 181,
+    "brand": "Renault",
+    "type": "Mégane R.S. SMS-R TCC",
+    "year": 2016
+  },
+  {
+    "carId": 182,
+    "brand": "RWD",
+    "type": "Motorsports P20 LMP2",
+    "year": 2016
+  },
+  {
+    "carId": 183,
+    "brand": "RWD",
+    "type": "Motorsports P30 LMP1",
+    "year": 2016
+  },
+  {
+    "carId": 184,
+    "brand": "Slightly Mad Studios",
+    "type": "Formula A",
+    "year": 2011
+  },
+  {
+    "carId": 185,
+    "brand": "Slightly Mad Studios",
+    "type": "Formula Rookie",
+    "year": 2012
+  },
+  {
+    "carId": 186,
+    "brand": "Slightly Mad Studios",
+    "type": "Formula C",
+    "year": 2016
+  },
+  {
+    "carId": 187,
+    "brand": "Slightly Mad Studios",
+    "type": "Kart",
+    "year": 2016
+  },
+  {
+    "carId": 188,
+    "brand": "Slightly Mad Studios",
+    "type": "Formula X",
+    "year": 2018
+  },
+  {
+    "carId": 189,
+    "brand": "Toyota",
+    "type": "GT-One",
+    "year": 1998
+  },
+  {
+    "carId": 190,
+    "brand": "Toyota",
+    "type": "GT-One",
+    "year": 1999
+  },
+  {
+    "carId": 191,
+    "brand": "Toyota",
+    "type": "86",
+    "year": 2013
+  },
+  {
+    "carId": 192,
+    "brand": "Toyota",
+    "type": "GT-86",
+    "year": 2013
+  },
+  {
+    "carId": 193,
+    "brand": "Toyota",
+    "type": "TS040 Hybrid",
+    "year": 2014
+  },
+  {
+    "carId": 194,
+    "brand": "Toyota",
+    "type": "GT-86 Rocket Bunny GT4",
+    "year": 2015
+  },
+  {
+    "carId": 195,
+    "brand": "Toyota",
+    "type": "GT-86 Rocket Bunny Street",
+    "year": 2015
+  },
+  {
+    "carId": 196,
+    "brand": "Volkswagen",
+    "type": "Polo RX Supercar",
+    "year": 2016
   }
 ]
