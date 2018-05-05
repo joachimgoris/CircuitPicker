@@ -1,85 +1,149 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 using Newtonsoft.Json;
 
 namespace CircuitPicker
 {
-    class Program
+    internal class Program
     {
-        static void Main(string[] args)
+        private static List<Circuit> _circuits;
+        private static List<Car> _cars;
+
+        private static void Main()
         {
-            List<Circuit> circuits;
-            List<Car> cars;
-            using (StreamReader r = new StreamReader(@"C:\Source\Repos\CircuitPicker\Circuits.json"))
-            {
-                string json = r.ReadToEnd();
-                circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
-            }
-            using (StreamReader r = new StreamReader(@"C:\Source\Repos\CircuitPicker\Cars.json"))
-            {
-                string json = r.ReadToEnd();
-                cars = JsonConvert.DeserializeObject<List<Car>>(json);
-            }
-            Random rdm = new Random();
-            string input;
+            
+            string defaultFilePath = Directory.GetCurrentDirectory();
+            int amountTracks=1, amountCars=1;
+            bool readSucces=false, amountSucces=false;
+            Console.WriteLine("Give the absolute file path for your json file.(Press A for default)");
             do
             {
-                int rdmCircuit = rdm.Next(circuits.Count - 1);
-                int rdmCar = rdm.Next(cars.Count - 1);
-                string strCar;
-                if (cars[rdmCar].IsDlc == true)
+                string input = Console.ReadLine();
+                if (input != null && input.ToLower()!="a")
                 {
-                    strCar = ("Car :" + cars[rdmCar].Brand + " " + cars[rdmCar].Type + " " + cars[rdmCar].Year +
-                                     " DLC: " + cars[rdmCar].DlcPack);
+                    try
+                    {
+                        ReadFiles(Console.ReadLine());
+                        readSucces = true;
+                    }
+                    catch (FileNotFoundException)
+                    {
+                        Console.WriteLine("File not found.");
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Something went wrong.");
+                    }
+
                 }
                 else
                 {
-                    strCar = ("Car :" + cars[rdmCar].Brand + " " + cars[rdmCar].Type + " " + cars[rdmCar].Year);
+                    try
+                    {
+                        ReadFiles(defaultFilePath);
+                        readSucces = true;
+                    }
+                    catch (FileNotFoundException)
+                    {
+                        Console.WriteLine("File not found.");
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("Something went wrong.");
+                    }
+
                 }
-                StringBuilder strCircuit =
-                    new StringBuilder("Name: " + circuits[rdmCircuit].Name + "\nLocation: " + circuits[rdmCircuit].Location +
-                                      "\nLayout: ");
-                var layouts = circuits[rdmCircuit].Layout.Split('|');
+            } while (!readSucces);
+
+            do
+            {
+                Console.WriteLine("How much tracks do you want to generate?");
+                try
+                {
+                    amountTracks = Convert.ToInt32(Console.ReadLine());
+                    amountSucces = true;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Unreadable format.");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Something went wrong.");
+                }
+
+                Console.WriteLine("How much cars do you want to generate?");
+                try
+                {
+                    amountCars = Convert.ToInt32(Console.ReadLine());
+                    amountSucces = true;
+                }
+                catch (FormatException)
+                {
+                    Console.WriteLine("Unreadable format.");
+                }
+                catch (Exception)
+                {
+                    Console.WriteLine("Something went wrong.");
+                }
+            } while (!amountSucces);
+            Console.Clear();
+            Generate(amountTracks, amountCars);
+        }
+
+        internal static void ReadFiles(string filePath)
+        {
+            using (StreamReader r = new StreamReader(filePath+"\\Circuits.json"))
+            {
+                string json = r.ReadToEnd();
+                _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
+            }
+            using (StreamReader r = new StreamReader(filePath+"\\Cars.json"))
+            {
+                string json = r.ReadToEnd();
+                _cars = JsonConvert.DeserializeObject<List<Car>>(json);
+            }
+        }
+
+        internal static void Generate(int amountTracks, int amountCars)
+        {
+            Random rdm = new Random();
+            string input;
+
+            do
+            {
+                int rdmCircuit = 0;
+                string strCar="";
+                StringBuilder strCircuit= new StringBuilder();
+                for (int i = 0; i < amountCars; i++)
+                {
+                    int rdmCar = rdm.Next(_cars.Count - 1);
+                    strCar += $"Car {i+1}: {_cars[rdmCar].Brand} {_cars[rdmCar].Type} {_cars[rdmCar].Year}";
+                    if (_cars[rdmCar].IsDlc)
+                    {
+                        strCar += _cars[rdmCar].DlcPack;
+                    }
+
+                    strCar += "\n";
+                }
+
+                for (int i = 0; i < amountTracks; i++)
+                {
+                    rdmCircuit = rdm.Next(_circuits.Count - 1);
+                    strCircuit.Append($"Circuit {i+1}:\nName: {_circuits[rdmCircuit].Name}\nLocation: {_circuits[rdmCircuit].Location}\nLayout: { _circuits[rdmCircuit].Layout}\n");
+                }
+
+                string[] layouts = _circuits[rdmCircuit].Layout.Split('|');
                 rdmCircuit = rdm.Next(layouts.Length - 1);
                 strCircuit.Append(layouts[rdmCircuit]);
                 Console.WriteLine(strCar);
                 Console.WriteLine(strCircuit.ToString());
                 input = Console.ReadLine();
                 Console.Clear();
-            } while (input.ToLower() != "n");
+            } while (input != null && input.ToLower() != "n");
         }
-    }
-
-    internal class Circuit
-    {
-        [JsonProperty("circuitId")]
-        public int Id { get; set; }
-        [JsonProperty("name")]
-        public string Name { get; set; }
-        [JsonProperty("location")]
-        public string Location { get; set; }
-        [JsonProperty("layout")]
-        public string Layout { get; set; }
-    }
-
-    internal class Car
-    {
-        [JsonProperty("carId")]
-        public int Id { get; set; }
-        [JsonProperty("brand")]
-        public string Brand { get; set; }
-        [JsonProperty("type")]
-        public string Type { get; set; }
-        [JsonProperty("year")]
-        public int Year { get; set; }
-        [JsonProperty("isDLC")]
-        public bool IsDlc { get; set; }
-        [JsonProperty("dlcPack")]
-        public string DlcPack { get; set; }
     }
 }
 
