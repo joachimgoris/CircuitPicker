@@ -1,0 +1,111 @@
+[
+    {
+        "carId":0,
+        "brand":"Abarth",
+        "model": "500 EsseEsse",
+        "class":"Road"
+    },
+    {
+        "carId":1,
+        "brand":"Abarth",
+        "model": "595ss Vintage",
+        "class": "Road"
+    },
+    {
+        "carId": 2,
+        "brand": "Abarth",
+        "model": "500 Assetto Corse",
+        "class": "Cup",
+        "isDLC": true,
+        "dlcPack": "DreamPack 3"
+    },
+    {
+        "carId": 3,
+        "brand": "Alfa Romeo",
+        "model": "Mito Quadrifoglio Verde",
+        "class": "Road"
+    },
+    {
+        "carId": 4,
+        "brand": "Alfa Romeo",
+        "model": "Giuletta QV ",
+        "class": "Road"
+    },
+    {
+        "carId": 5,
+        "brand": "Alfa Romeo",
+        "model": "4C",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack":"DreamPack 1"	
+    },
+    {
+        "carId": 6,
+        "brand": "Alfa Romeo",
+        "model": "GTA",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack": "DreamPack 1"
+    },
+    {
+        "carId": 7,
+        "brand": "Alfa Romeo",
+        "model": "Giula Quadrifoglio",
+        "class": "Road"
+    },
+    {
+        "carId": 8,
+        "brand": "Alfa Romeo",
+        "model": "155 V6 TI",
+        "class": "90's DTM",
+        "isDLC": true,
+        "dlcPack":"DreamPack 1"
+    },
+    {
+        "carId": 9,
+        "brand": "Alfa Romeo",
+        "model": "Daytona Type 33/2",
+        "class": "Prototype"
+    },
+    {
+        "carId": 10,
+        "brand": "Audi",
+        "model": "Sport Quattro",
+        "class": "Road"
+    },
+    {
+        "carId": 11,
+        "brand": "Audi",
+        "model": "R8 Plus (2014)",
+        "class": "Road"
+    },
+    {
+        "carId": 12,
+        "brand": "Audi",
+        "model": "S1 Quattro",
+        "class": "Road"
+    },
+    {
+        "carId": 13,
+        "brand": "Audi",
+        "model": "A1 S1 Quattro",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack": "COnsole DLC Pack"
+    },
+    {
+        "carId": 14,
+        "brand": "Audi",
+        "model": "Quattro S1 Group B",
+        "class": "Rally Group B"
+    },
+    {
+        "carId": 15,
+        "brand": "Audi",
+        "model": "R8 LMS Ultra (2014)",
+        "class": "GT3",
+        "isDLC": true,
+        "dlcPack":"DreamPack 2"
+    },
+]
+https://docs.google.com/spreadsheets/d/18AUKAyE-PIvMEMzC407thbdd2U1W46wjKxY3lLdj7Nw/edit#gid=1049137265

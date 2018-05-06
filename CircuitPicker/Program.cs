@@ -17,15 +17,18 @@ namespace CircuitPicker
             string defaultFilePath = Directory.GetCurrentDirectory();
             int amountTracks=1, amountCars=1;
             bool readSucces=false, amountSucces=false;
+            Console.WriteLine("Choose your game. 1 for PC2, 2 for AC");
+            string input = Console.ReadLine();
+            Game gamePick = input != null && input.Equals("1") ? Game.ProjectCars : Game.AssettoCorsa;
             Console.WriteLine("Give the absolute file path for your json file.(Press A for default)");
             do
             {
-                string input = Console.ReadLine();
+                input = Console.ReadLine();
                 if (input != null && input.ToLower()!="a")
                 {
                     try
                     {
-                        ReadFiles(Console.ReadLine());
+                        ReadFiles(input,gamePick);
                         readSucces = true;
                     }
                     catch (FileNotFoundException)
@@ -42,7 +45,7 @@ namespace CircuitPicker
                 {
                     try
                     {
-                        ReadFiles(defaultFilePath);
+                        ReadFiles(defaultFilePath, gamePick);
                         readSucces = true;
                     }
                     catch (FileNotFoundException)
@@ -93,14 +96,23 @@ namespace CircuitPicker
             Generate(amountTracks, amountCars);
         }
 
-        internal static void ReadFiles(string filePath)
+        internal static void ReadFiles(string filePath, Game game)
         {
-            using (StreamReader r = new StreamReader(filePath+"\\Circuits.json"))
+            string postfixCircuits="\\Circuits";
+            string postfixCars = "\\Cars";
+            postfixCircuits = game.Equals(Game.AssettoCorsa)
+                ? postfixCircuits + "AC.json"
+                : postfixCircuits + "PC2.json";
+            postfixCars = game.Equals(Game.AssettoCorsa)
+                ? postfixCars +"AC.json"
+                : postfixCars + "PC2.json";
+
+            using (StreamReader r = new StreamReader(filePath+postfixCircuits))
             {
                 string json = r.ReadToEnd();
                 _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
             }
-            using (StreamReader r = new StreamReader(filePath+"\\Cars.json"))
+            using (StreamReader r = new StreamReader(filePath+postfixCars))
             {
                 string json = r.ReadToEnd();
                 _cars = JsonConvert.DeserializeObject<List<Car>>(json);
@@ -114,7 +126,6 @@ namespace CircuitPicker
 
             do
             {
-                int rdmCircuit = 0;
                 string strCar="";
                 StringBuilder strCircuit= new StringBuilder();
                 for (int i = 0; i < amountCars; i++)
@@ -131,19 +142,20 @@ namespace CircuitPicker
 
                 for (int i = 0; i < amountTracks; i++)
                 {
-                    rdmCircuit = rdm.Next(_circuits.Count - 1);
-                    strCircuit.Append($"Circuit {i+1}:\nName: {_circuits[rdmCircuit].Name}\nLocation: {_circuits[rdmCircuit].Location}\nLayout: { _circuits[rdmCircuit].Layout}\n");
+                    int rdmCircuit = rdm.Next(_circuits.Count - 1);
+                    strCircuit.Append($"Circuit {i+1}:\nName: {_circuits[rdmCircuit].Name}\nLocation: {_circuits[rdmCircuit].Location}\nLayout: ");
+                    string[] layouts = _circuits[rdmCircuit].Layout.Split('|');
+                    rdmCircuit = rdm.Next(layouts.Length - 1);
+                    strCircuit.Append(layouts[rdmCircuit]+"\n\n");
                 }
-
-                string[] layouts = _circuits[rdmCircuit].Layout.Split('|');
-                rdmCircuit = rdm.Next(layouts.Length - 1);
-                strCircuit.Append(layouts[rdmCircuit]);
                 Console.WriteLine(strCar);
                 Console.WriteLine(strCircuit.ToString());
                 input = Console.ReadLine();
                 Console.Clear();
             } while (input != null && input.ToLower() != "n");
         }
+
+        
     }
 }
 

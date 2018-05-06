@@ -26,3 +26,13 @@ C:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.pdb
 C:\Source\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.dll
 C:\Source\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.xml
 C:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CopyComplete
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.exe.config
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.exe
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPicker.pdb
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.dll
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\Newtonsoft.Json.xml
+D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csprojResolveAssemblyReference.cache
+D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CoreCompileInputs.cache
+D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CopyComplete
+D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.exe
+D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.pdb
