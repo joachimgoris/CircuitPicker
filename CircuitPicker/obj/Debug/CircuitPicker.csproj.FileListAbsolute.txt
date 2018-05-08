@@ -36,3 +36,5 @@ D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CoreCompile
 D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.csproj.CopyComplete
 D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.exe
 D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.pdb
+C:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.dll
+C:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.pdb
