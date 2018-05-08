@@ -38,3 +38,5 @@ D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.exe
 D:\Source\CircuitPicker\CircuitPicker\obj\Debug\CircuitPicker.pdb
 C:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.dll
 C:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.pdb
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.dll
+D:\Source\CircuitPicker\CircuitPicker\bin\Debug\CircuitPickerCore.pdb

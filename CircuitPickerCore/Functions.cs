@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Runtime.CompilerServices;
 using System.Text;
 using Newtonsoft.Json;
 
@@ -9,7 +8,7 @@ namespace CircuitPickerCore
 {
     public class Functions
     {
-        private static List<Car> _cars = new List<Car>();
+        private static List<Car> _cars;
         private  static List<Circuit> _circuits = new List<Circuit>();
 
         public static void ReadFiles(string filePath, Game game)
@@ -26,12 +25,29 @@ namespace CircuitPickerCore
             using (StreamReader r = new StreamReader(filePath + postfixCircuits))
             {
                 string json = r.ReadToEnd();
-                _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
+                if (postfixCircuits.Contains("AC.json"))
+                {
+                    _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
+                }
+                else
+                {
+                    _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
+                }
+                
             }
             using (StreamReader r = new StreamReader(filePath + postfixCars))
             {
                 string json = r.ReadToEnd();
-                _cars = JsonConvert.DeserializeObject<List<Car>>(json);
+                if (postfixCars.Contains("AC.json"))
+                {
+                    _cars = new List<CarAc>();
+                    _cars = JsonConvert.DeserializeObject<List<CarAc>>(json);
+                }
+                else
+                {
+                    _cars = JsonConvert.DeserializeObject<List<CarPc>>(json);
+                }
+                
             }
         }
 

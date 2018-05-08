@@ -6,3 +6,12 @@ C:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.Cor
 C:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.CopyComplete
 C:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.dll
 C:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.pdb
+D:\Source\CircuitPicker\CircuitPickerCore\bin\Debug\CircuitPickerCore.dll
+D:\Source\CircuitPicker\CircuitPickerCore\bin\Debug\CircuitPickerCore.pdb
+D:\Source\CircuitPicker\CircuitPickerCore\bin\Debug\Newtonsoft.Json.dll
+D:\Source\CircuitPicker\CircuitPickerCore\bin\Debug\Newtonsoft.Json.xml
+D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csprojResolveAssemblyReference.cache
+D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.CoreCompileInputs.cache
+D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.CopyComplete
+D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.dll
+D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.pdb
