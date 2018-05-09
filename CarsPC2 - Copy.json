@@ -71,7 +71,7 @@
     "model": "V8 DTM",
     "year": 1991,
     "isDLC": true,
-    "dlcPack": 9
+    "dlcPack": "Motorsport Pack"
   },
   {
     "carId": 12,
@@ -475,7 +475,7 @@
     "model": "2&4 Concept Car",
     "year": 2015,
     "isDLC": true,
-    "dlcPack": 10
+    "dlcPack": "Japanese Cars"
   },
   {
     "carId": 79,
@@ -501,7 +501,7 @@
     "model": "Civic model-R Euro Spec",
     "year": 2016,
     "isDLC": true,
-    "dlcPack": 10
+    "dlcPack": "Japanese Cars"
   },
   {
     "carId": 83,
@@ -851,7 +851,7 @@
     "model": "280 ZX IMSA GTX",
     "year": 1981,
     "isDLC": true,
-    "dlcPack": 10
+    "dlcPack": "Japanese Cars"
   },
   {
     "carId": 141,
@@ -931,7 +931,7 @@
     "model": "Astra TCR",
     "year": 2016,
     "isDLC": true,
-    "dlcPack": 9
+    "dlcPack": "Motorsport Pack"
   },
   {
     "carId": 154,
@@ -963,7 +963,7 @@
     "model": "Esperante GTR-1",
     "year": 1998,
     "isDLC": true,
-    "dlcPack": 9
+    "dlcPack": "Motorsport Pack"
   },
   {
     "carId": 159,

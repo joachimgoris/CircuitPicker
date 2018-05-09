@@ -47,15 +47,15 @@ namespace CircuitPicker
                     {
                         Console.WriteLine("File not found.");
                     }
-                    catch (Exception)
-                    {
-                        Console.WriteLine("Something went wrong.");
-                    }
+                    //catch (Exception)
+                    //{
+                    //    Console.WriteLine("Something went wrong.");
+                    //}
 
                 }
             } while (!readSucces);
 
-            Functions.GenerateFilter(DlcAc.RedPack, 1, 2);
+            Functions.GenerateFilter(Dlc.MotorsportPack, 1, 2);
             do
             {
                 Console.WriteLine("How much tracks do you want to generate?");

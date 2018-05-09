@@ -1,6 +1,6 @@
 ﻿namespace CircuitPickerCore
 {
-    public enum DlcAc
+    public enum Dlc
     {
         None = 0,
         SeventythPack = 1,
@@ -10,6 +10,8 @@
         DreamPack3 = 5,
         ReadyToRace = 6,
         RedPack = 7,
-        TriplePack = 8
+        TriplePack = 8,
+        MotorsportPack = 9,
+        JapaneseCars = 10
     }
 }

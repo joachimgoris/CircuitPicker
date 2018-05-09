@@ -1,4 +1,5 @@
 ﻿using System;
+using System.CodeDom;
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
@@ -25,29 +26,14 @@ namespace CircuitPickerCore
             using (StreamReader r = new StreamReader(filePath + postfixCircuits))
             {
                 string json = r.ReadToEnd();
-                if (postfixCircuits.Contains("AC.json"))
-                {
-                    _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
-                }
-                else
-                {
-                    _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
-                }
+                _circuits = JsonConvert.DeserializeObject<List<Circuit>>(json);
                 
             }
             using (StreamReader r = new StreamReader(filePath + postfixCars))
             {
                 string json = r.ReadToEnd();
-                if (postfixCars.Contains("AC.json"))
-                {
-                    _cars = new List<CarAc>();
-                    _cars = JsonConvert.DeserializeObject<List<CarAc>>(json);
-                }
-                else
-                {
-                    _cars = JsonConvert.DeserializeObject<List<CarPc>>(json);
-                }
-                
+                _cars = JsonConvert.DeserializeObject<List<Car>>(json);
+
             }
         }
 
@@ -63,7 +49,7 @@ namespace CircuitPickerCore
                 for (int i = 0; i < amountCars; i++)
                 {
                     int rdmCar = rdm.Next(_cars.Count - 1);
-                    strCar += $"Car {i + 1}: {_cars[rdmCar].Brand} {_cars[rdmCar].Type} {_cars[rdmCar].Year}";
+                    strCar += $"Car {i + 1}: {_cars[rdmCar].Brand} {_cars[rdmCar].Model} {_cars[rdmCar].Year}";
                     if (_cars[rdmCar].IsDlc)
                     {
                         strCar += _cars[rdmCar].DlcPack;
@@ -87,21 +73,37 @@ namespace CircuitPickerCore
             } while (input != null && input.ToLower() != "n");
         }
 
-        public static void GenerateFilter(DlcAc dlcAc, int amountTracks, int amountCars)
+        public static void GenerateFilter(Dlc dlc, int amountTracks, int amountCars)
         {
             Random rdm = new Random();
             string input;
             List<Car> _modifiedCars = new List<Car>();
-
             //Filter lists
             foreach (Car car in _cars)
             {
                 if (!car.IsDlc) continue;
-                if (car.DlcPack.Contains(dlcAc.ToString()))
+                if (car.DlcPack == dlc)
                 {
                     _modifiedCars.Add(car);
                 }
             }
+
+            do
+            {
+                string strCar;
+                StringBuilder strCircuit = new StringBuilder();
+                for (int i = 0; i < amountCars; i++)
+                {
+                    int rdmCar = rdm.Next(_modifiedCars.Count - 1);
+                    strCar = $"Car{i + 1}: {_modifiedCars[rdmCar].Brand} {_modifiedCars[rdmCar].Model} {_modifiedCars[rdmCar].Year}";
+                    if (_modifiedCars[rdmCar].IsDlc)
+                    {
+                        strCar += _modifiedCars[rdmCar].DlcPack;
+                    }
+
+                    strCar += "\n";
+                }
+            } while (input !=null && input.ToLower()!= "n");
 
             
             
@@ -112,11 +114,6 @@ namespace CircuitPickerCore
                     
                 }
             
-        }
-
-        private static void GenerateFilter(DlcPc dlcPc)
-        {
-
         }
     }
 }

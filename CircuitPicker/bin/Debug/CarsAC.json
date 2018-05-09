@@ -1,0 +1,417 @@
+[
+    {
+        "carId":0,
+        "brand":"Abarth",
+        "model": "500 EsseEsse",
+        "class":"Road"
+    },
+    {
+        "carId":1,
+        "brand":"Abarth",
+        "model": "595ss Vintage",
+        "class": "Road"
+    },
+    {
+        "carId": 2,
+        "brand": "Abarth",
+        "model": "500 Assetto Corse",
+        "class": "Cup",
+        "isDLC": true,
+        "dlcPack": "DreamPack 3"
+    },
+    {
+        "carId": 3,
+        "brand": "Alfa Romeo",
+        "model": "Mito Quadrifoglio Verde",
+        "class": "Road"
+    },
+    {
+        "carId": 4,
+        "brand": "Alfa Romeo",
+        "model": "Giuletta QV ",
+        "class": "Road"
+    },
+    {
+        "carId": 5,
+        "brand": "Alfa Romeo",
+        "model": "4C",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack":"DreamPack 1"	
+    },
+    {
+        "carId": 6,
+        "brand": "Alfa Romeo",
+        "model": "GTA",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack": "DreamPack 1"
+    },
+    {
+        "carId": 7,
+        "brand": "Alfa Romeo",
+        "model": "Giula Quadrifoglio",
+        "class": "Road"
+    },
+    {
+        "carId": 8,
+        "brand": "Alfa Romeo",
+        "model": "155 V6 TI",
+        "class": "90's DTM",
+        "isDLC": true,
+        "dlcPack":"DreamPack 1"
+    },
+    {
+        "carId": 9,
+        "brand": "Alfa Romeo",
+        "model": "Daytona Type 33/2",
+        "class": "Prototype"
+    },
+    {
+        "carId": 10,
+        "brand": "Audi",
+        "model": "Sport Quattro",
+        "class": "Road"
+    },
+    {
+        "carId": 11,
+        "brand": "Audi",
+        "model": "R8 Plus (2014)",
+        "class": "Road"
+    },
+    {
+        "carId": 12,
+        "brand": "Audi",
+        "model": "S1 Quattro",
+        "class": "Road"
+    },
+    {
+        "carId": 13,
+        "brand": "Audi",
+        "model": "A1 S1 Quattro",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack": "COnsole DLC Pack"
+    },
+    {
+        "carId": 14,
+        "brand": "Audi",
+        "model": "Quattro S1 Group B",
+        "class": "Rally Group B"
+    },
+    {
+        "carId": 15,
+        "brand": "Audi",
+        "model": "R8 LMS Ultra (2014)",
+        "class": "GT3",
+        "isDLC": true,
+        "dlcPack":"DreamPack 2"
+    },
+    {
+        "carId": 16,
+        "brand":"Audi",
+        "model":"R8 LMS 2016",
+        "class":"GT3",
+        "isDLC":true,
+        "dlcPack":"Ready To Race"
+    },
+    {
+        "carId": 17,
+        "brand": "Audi",
+        "model":"TT VLN 2014",
+        "class": "Cup",
+        "isDLC":true,
+        "dlcPack":"Ready To Race"
+    },
+    {
+        "carId": 18,
+        "brand": "Audi",
+        "model": "TT Cup 2015",
+        "class": "Cup",
+        "isDLC":true,
+        "dlcPack":"Ready To Race"
+    },
+    {
+        "carId": 18,
+        "brand": "Audi",
+        "model":"R18 E-Tron Quattro (2014)",
+        "class":"LMP1-H",
+        "isDLC":true,
+        "dlcPack":"Ready To Race"
+    },
+    {
+        "carId": 19,
+        "brand": "BMW",
+        "model":"M3 E30 Sport Evolution",
+        "class":"Road"
+    },
+    {
+        "carId": 20,
+        "brand": "BMW",
+        "model":"Z4 E89 35is",
+        "class":"Road"
+    },
+    {
+        "carId": 21,
+        "brand": "BMW",
+        "model":"1M Coupe",
+        "class":"Road"
+    },
+    {
+        "carId": 22,
+        "brand": "BMW",
+        "model":"M3 E92",
+        "class":"Road"
+    },
+    {
+        "carId": 23,
+        "brand": "BMW",
+        "model":"M4 Coupe + Akrapovic",
+        "class":"Road",
+        "isDLC":true,
+        "dlcPack":"DreamPack 2"
+    },
+    {
+        "carId": 24,
+        "brand": "BMW",
+        "model": "M30 E30 Group 1",
+        "class": "90's DTM"
+    },
+    {
+        "carId": 25,
+        "brand": "BMW",
+        "model":"M3 GT2",
+        "class":"GT2"
+    },
+    {
+        "carId": 26,
+        "brand": "BMW",
+        "model":"Z4 GT3",
+        "class":"GT3"
+    },
+    {
+        "carId": 27,
+        "brand": "BMW",
+        "model": "M235i Racing VLN",
+        "class": "Cup",
+        "isDLC": true,
+        "dlcPack":"DreamPack 1"
+    },
+    {
+        "carId": 28,
+        "brand": "Classic Lotus",
+        "model": "Type 49",
+        "class": "Classic F1"
+    },
+    {
+        "carId": 29,
+        "brand": "Classic Lotus",
+        "model": "98T",
+        "class": "Classic F1"
+    },
+    {
+        "carId": 30,
+        "brand": "Classic Lotus",
+        "model": "72",
+        "class": "Classic F1",
+        "isDLC": true,
+        "dlcPack": "DreamPack 3"
+    },
+    {
+        "carId": 31,
+        "brand": "Classic Lotus",
+        "model": "25",
+        "class": "Classic F1",
+        "isDLC": true,
+        "dlcPack":"DreamPack 3"
+    },
+    {
+        "carId": 32,
+        "brand": "Corvette",
+        "model": "C7 Stingray",
+        "class": "Road"
+    },
+    {
+        "carId": 33,
+        "brand": "Corvette",
+        "model": "C7.R",
+        "class": "GTE",
+        "isDLC":true,
+        "dlcPack":"DreamPack 1"
+    },
+    {
+        "carId": 34,
+        "brand": "Ferrari",
+        "model": "F40",
+        "class": "Road"
+    },
+    {
+        "carId": 35,
+        "brand": "Ferrari",
+        "model": "458 Italia",
+        "class": "Road"
+    },
+    {
+        "carId": 36,
+        "brand": "Ferrari",
+        "model": "LaFerrari",
+        "class": "Road"
+    },
+    {
+        "carId": 37,
+        "brand": "Ferrari",
+        "model": "488 GTB",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack": "Triple Pack"
+    },
+    {
+        "carId": 38,
+        "brand": "Ferrari",
+        "model": "288 GTO",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 39,
+        "brand": "Ferrari",
+        "model": "812 Superfast",
+        "class": "Road",
+        "isDLC": true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 40,
+        "brand": "Ferrari",
+        "model": "312T",
+        "class": "Classic F1"
+    },
+    {
+        "carId": 41,
+        "brand": "Ferrari",
+        "model": "548 GT2",
+        "class": "GT2"
+    },
+    {
+        "carId": 42,
+        "brand": "Ferrari",
+        "model": "599XX Evo",
+        "class": "Trackday"
+    },
+    {
+        "carId": 43,
+        "brand": "Ferrari",
+        "model": "FXX-K",
+        "class": "Trackday",
+        "isDLC":true,
+        "dlcPack":"Triple Pack"
+    },
+    {
+        "carId": 44 ,
+        "brand": "Ferrari",
+        "model": "F138",
+        "class": "F1",
+        "isDLC":true,
+        "dlcPack":"Red Pack"
+    },
+    {
+        "carId": 45,
+        "brand": "Ferrari",
+        "model": "SF-15T",
+        "class": "F1",
+        "isDLC":true,
+        "dlcPack":"Red Pack"
+    },
+    {
+        "carId": 46,
+        "brand": "Ferrari",
+        "model": "488 GT3",
+        "class": "GT3",
+        "isDLC":true,
+        "dlcPack":"Red Pack"
+    },
+    {
+        "carId": 47,
+        "brand": "Ferrari",
+        "model": "250 GTO",
+        "class": "Race Legends",
+        "isDLC": true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 48,
+        "brand": "Ferrari",
+        "model": "330 P4",
+        "class": "Race Legends",
+        "isDLC":true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 49,
+        "brand": "Ferrari",
+        "model": "312/67",
+        "class": "Race Legends",
+        "isDLC":true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 50,
+        "brand": "Ferrari",
+        "model": "F2004",
+        "class": "F1",
+        "isDLC":true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 51,
+        "brand": "Ferrari",
+        "model": "F1",
+        "class": "SF70H",
+        "isDLC":true,
+        "dlcPack":"70th Pack"
+    },
+    {
+        "carId": 52,
+        "brand": "Ford",
+        "model": "Mustang 2015",
+        "class": "Road"
+    },
+    {
+        "carId": 53,
+        "brand": "Ford",
+        "model": "GT40 mk1",
+        "class": "Race Legends",
+        "isDLC":true,
+        "dlcPack":"DreamPack 1"
+    },
+    {
+        "carId": 54,
+        "brand": "Ford",
+        "model": "Escort mk1",
+        "class": "Race Legends",
+        "isDLC":true,
+        "dlcPack":"DreamPack 2"
+    },
+    {
+        "carId": 55,
+        "brand": "KTM",
+        "model": "X-Bow R",
+        "class": "Trackday"
+    },
+    {
+        "carId": 56,
+        "brand": "Lamborghini",
+        "model": "Miura SV",
+        "class": "Road"
+    },
+    {
+        "carId": 57,
+        "brand": "Lamborghini",
+        "model": "Countach 5000 QV",
+        "class": "Road",
+        "isDLC":true,
+        "dlcPack":"DreamPack 2"
+    }
+]
+//https://docs.google.com/spreadsheets/d/18AUKAyE-PIvMEMzC407thbdd2U1W46wjKxY3lLdj7Nw/edit#gid=1049137265

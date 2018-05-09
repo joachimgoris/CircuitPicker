@@ -15,3 +15,4 @@ D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.Cor
 D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csproj.CopyComplete
 D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.dll
 D:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.pdb
+C:\Source\CircuitPicker\CircuitPickerCore\obj\Debug\CircuitPickerCore.csprojResolveAssemblyReference.cache
